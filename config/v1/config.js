@@ -11,7 +11,7 @@ CONFIG.mysql_host = process.env.MYSQL_HOST || 'localhost';
 CONFIG.mysql_port = process.env.MYSQL_PORT || '3306';
 CONFIG.mysql_name = process.env.MYSQL_DB_NAME || 'default'
 CONFIG.mysql_user = process.env.MYSQL_USER || 'root';
-CONFIG.mysql_password = process.env.MYSQL_PASSWORD || 'unoapp2020!';
+CONFIG.mysql_password = process.env.MYSQL_PASSWORD || 'itechnolabs2020!';
 
 CONFIG.redis_url = process.env.REDIS_URL;
 CONFIG.redis_port = process.env.REDIS_PORT;

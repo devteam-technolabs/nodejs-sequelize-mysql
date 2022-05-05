@@ -35,7 +35,7 @@ module.exports = async function (app) {
 
     app.route('*').all((req, res) => {
         return res.status(404).send({
-            msg: `'${req.originalUrl}' is not a invalid endpoint. please check the request URL and try again.`
+            msg: `'${req.originalUrl}' is not a valid endpoint. please check the request URL and try again.`
         })
     })
 }
