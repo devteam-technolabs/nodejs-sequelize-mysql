@@ -20,7 +20,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### How to run with pm2? ###
 * Upload nodejs-sequelize-mysql code on server run "npm install"
-* Run "pm2 start "npm start"" Inside backend folder
+* Run "pm2 start "npm start"" Inside nodejs-sequelize-mysql folder
 * Create host file on nginx and point document directory to that backend folder and add proxy port.
 
 ### Contribution guidelines ###
